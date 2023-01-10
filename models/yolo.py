@@ -496,7 +496,7 @@ if __name__ == '__main__':
 
     # Test all models
     if opt.test:
-        for cfg in Path(ROOT / 'models').rglob('yolo*.yaml'):
+        for cfg in Path(ROOT / 'configs').rglob('yolo*.yaml'):
             try:
                 _ = Model(cfg)
             except Exception as e:

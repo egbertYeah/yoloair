@@ -4,3 +4,5 @@ yolov5s.pt
 log_model
 runs
 *.idea
+
+datasets/
